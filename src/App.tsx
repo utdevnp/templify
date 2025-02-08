@@ -22,7 +22,9 @@ export default function App() {
       data={initialValues}
       height={'calc(100vh - 72px)'}
       autoComplete
-      dashed={false}
+      dashed={true}
+      enabledLogic={true}
+      interactiveStyle={true}
     >
       {({ values }) => {
         return (
